@@ -3,5 +3,8 @@ pkgdown: 2.0.7
 pkgdown_sha: ~
 articles:
   TelescopeTools: TelescopeTools.html
-last_built: 2023-05-15T15:18Z
+last_built: 2023-05-15T15:38Z
+urls:
+  reference: https://nixonlab.github.io/TelescopeTools/reference
+  article: https://nixonlab.github.io/TelescopeTools/articles
 
