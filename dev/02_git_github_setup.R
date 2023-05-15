@@ -15,13 +15,13 @@ usethis::use_git() ## Choose the option to make the commit, then to restart RStu
 args(usethis::use_github)
 
 ## If this is your first time running use_github(), you might have to also run:
-usethis::gh_token_help()
+if(FALSE) usethis::gh_token_help()
 ## The above command will suggest that you read more at
 ## https://usethis.r-lib.org/articles/articles/git-credentials.html
 ## which contains the latest recommendations by the usethis authors for
 ## configuring your R to GitHub connection.
-usethis::create_github_token()
-gitcreds::gitcreds_set()
+if(FALSE) usethis::create_github_token()
+if(FALSE) gitcreds::gitcreds_set()
 ## Type your GitHub token, not your password! Otherwise you might run into this
 ## problem: https://github.com/r-lib/usethis/issues/1347
 
@@ -32,15 +32,15 @@ gitcreds::gitcreds_set()
 ## .Renviron file with contents like (note the empty line at the end!):
 # GITHUB_PAT=YOUR_40_CHARACTERS_TOKEN
 #
-usethis::edit_r_environ()
+if(FALSE) usethis::edit_r_environ()
 ## Then re-start your R session.
-rstudioapi::restartSession()
+if(FALSE) rstudioapi::restartSession()
 ## Editing the .Renviron is strongly discouraged now since it stores as
 ## simple text your GitHub personal access token (PAT) instead of the
 ## more secure approach provided by gitcreds.
 
 ## Now run use_github()
-usethis::use_github()
+usethis::use_github(organisation = "nixonlab")
 ## Follow any prompts, such as running on the terminal:
 ## git push --set-upstream origin master
 

@@ -26,6 +26,7 @@ rstudioapi::navigateToFile(usethis::proj_path("dev", "02_git_github_setup.R"))
 ## Date: 2020-04-29
 
 ## This function sets all these defaults for you
+usethis::use_mit_license("Matthew L. Bendall")
 biocthis::use_bioc_description()
 ## However, you still need to edit parts of it manually
 rstudioapi::navigateToFile(usethis::proj_path("DESCRIPTION"))
