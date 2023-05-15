@@ -80,7 +80,7 @@ Below is the citation output from using `citation('TelescopeTools')` in R. Pleas
 run this yourself to check for any updates on how to cite __TelescopeTools__.
 
 ```{r 'citation', eval = requireNamespace('TelescopeTools')}
-print(citation('TelescopeTools'), bibtex = TRUE)
+print(citation("TelescopeTools"), bibtex = TRUE)
 ```
 
 Please note that the `TelescopeTools` was only made possible thanks to many other R and bioinformatics software authors, which are cited either in the vignettes and/or the paper(s) describing this package.

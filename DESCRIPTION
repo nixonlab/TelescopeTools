@@ -3,11 +3,12 @@ Title: Downstream Analysis For Telescope
 Version: 0.99.0
 Date: 2023-05-15
 Authors@R: 
-    person("Matthew", "Bendall", "L", "mlb4001@med.cornell.edu", role = c("aut", "cre"),
+    person("Matthew L", "Bendall", "", "mlb4001@med.cornell.edu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-9816-5425"))
 Description: Downstream analysis and visualization for Telescope
 License: MIT + file LICENSE
-URL: https://github.com/nixonlab/TelescopeTools
+URL: https://github.com/nixonlab/TelescopeTools,
+    https://nixonlab.github.io/TelescopeTools/
 BugReports: https://github.com/nixonlab/TelescopeTools/issues
 biocViews: Software
 Encoding: UTF-8

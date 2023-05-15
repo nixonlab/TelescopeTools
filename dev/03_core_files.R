@@ -77,7 +77,7 @@ biocthis::use_bioc_vignette(pkg, paste("Introduction to", pkg))
 
 ## Add a Bioconductor-friendly GitHub actions workflow to check your package
 biocthis::use_bioc_github_action()
-## You will need to go to https://github.com//settings/actions
+## You will need to go to https://github.com/TelescopeTools/settings/actions
 ## to and enable:
 ## > Workflow permissions > Read and write permissions
 ## Then click save before you can continue with the instructions in this script.
@@ -91,7 +91,7 @@ biocthis::use_bioc_github_action()
 rstudioapi::navigateToFile(usethis::proj_path(".github", "workflows", "check-bioc.yml"))
 
 ## Setup up your global git config
-usethis::edit_git_config()
+if (FALSE) usethis::edit_git_config()
 ## Use the information that matches your GitHub account
 ## Example contents (4 space indentation):
 # [user]
@@ -112,6 +112,8 @@ biocthis::use_bioc_pkgdown_css()
 ## GitHub repository in such a way that pkgdown will recognize it and be
 ## able to use it later.
 pkgdown::deploy_to_branch() ## Check the WARNING above before running this!
+
+usethis::use_pkgdown_github_pages()
 
 ## Move to the next step: updating your package code before a "git commit"
 rstudioapi::navigateToFile(usethis::proj_path("dev", "04_update.R"))

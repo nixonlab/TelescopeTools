@@ -93,7 +93,7 @@ R. Please run this yourself to check for any updates on how to cite
 **TelescopeTools**.
 
 ``` r
-print(citation('TelescopeTools'), bibtex = TRUE)
+print(citation("TelescopeTools"), bibtex = TRUE)
 #> To cite package 'TelescopeTools' in publications use:
 #> 
 #>   Bendall ML (2023). _TelescopeTools_.
