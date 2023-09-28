@@ -48,7 +48,7 @@ rstudioapi::restartSession()
 ## more secure approach provided by gitcreds.
 
 ## Now run use_github()
-usethis::use_github()
+usethis::use_github(organisation='nixonlab')
 ## Follow any prompts, such as running on the terminal:
 ## git push --set-upstream origin devel
 

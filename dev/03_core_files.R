@@ -29,6 +29,7 @@ rstudioapi::navigateToFile(usethis::proj_path("dev", "02_git_github_setup.R"))
 biocthis::use_bioc_description()
 ## However, you still need to edit parts of it manually
 rstudioapi::navigateToFile(usethis::proj_path("DESCRIPTION"))
+usethis::use_mit_license()
 
 ## Create your README.Rmd file
 biocthis::use_bioc_readme_rmd()
